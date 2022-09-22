@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  
+  box-sizing: border-box;
+  /*background-color: #00ccff;*/
+/*  background-image: url("/home.jpg"); */
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: 'Tahoma, sans-serif';
+ 
+}
+.map{
+  margin-left: 10px;
+  border-radius:  25px;
+    height: 250px;
+}
+p{
+  font:  Tahoma, sans-serif;
+opacity: 50%;
+text-align: center;
+
+}
+.footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color:black;
+}
+
+.footer p {
+  color: #fff;
+  font-size:.75em;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1674px;  /* adjust to allow for padding as needed */
+  padding: 15px 50px;
+}
+
+#ftr-wrap {
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  margin:0 auto;
+}
+#ftr-wrap > div {
+  display:table-cell;
+  vertical-align:middle;
+  outline:5px; 
+}
+#ftr-wrap > div:nth-child(1) {text-align:left;}
+#ftr-wrap > div:nth-child(2) {text-align:center;}
+#ftr-wrap > div:nth-child(3) {text-align:right;}
+
+.ftr-links ul {
+  padding: 0;
+}
+.ftr-links ul li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size:.75em;
+}
+.ftr-links ul li a {
+  color: #fff;
+  margin: 0;
+}
+
+
+
+/*By Danish Zubari */
